@@ -1,0 +1,10 @@
+services:
+  laravel-package:
+    image: edramkai/laravel:php-8.5-vscode
+    command: sleep infinity
+    volumes:
+      - ../:/laravel-package:cached
+      - codex-config:/root/.codex
+
+volumes:
+  codex-config:
