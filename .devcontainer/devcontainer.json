@@ -2,7 +2,7 @@
     "name": "Laravel Package Dev Container",
     "dockerComposeFile": "docker-compose.yml",
     "service": "laravel-package",
-    "workspaceFolder": "/larave-package",
+    "workspaceFolder": "/laravel-package",
     "remoteUser": "root",
     "features": {},
     "runArgs": [
