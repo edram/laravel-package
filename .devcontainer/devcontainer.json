@@ -14,5 +14,8 @@
         "vscode": {
             "extensions": []
         }
-    }
+    },
+    "mounts": [
+        "source=${localEnv:HOME}/.ssh/authorized_keys,target=/root/.ssh/authorized_keys,type=bind"
+    ]
 }
