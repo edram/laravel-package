@@ -8,7 +8,7 @@ return new class extends Migration
 {
     public function up(): void
     {
-        Schema::create('laravel_package', function (Blueprint $table): void {
+        Schema::create('packages', function (Blueprint $table): void {
             $table->id();
             $table->timestamps();
         });
@@ -16,6 +16,6 @@ return new class extends Migration
 
     public function down(): void
     {
-        Schema::dropIfExists('laravel_package');
+        Schema::dropIfExists('packages');
     }
 };
